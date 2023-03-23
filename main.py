@@ -6,9 +6,6 @@ todos = []
 finished = []
 
 
-# either a 'move' action to finished tasks, or the strike stays on list
-
-
 def strike(text):
     result = ''
     for c in text:
